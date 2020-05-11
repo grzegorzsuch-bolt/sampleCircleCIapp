@@ -16,10 +16,18 @@ describe('Array', function() {
   });
 });
 
-var sumReturnVal = 5;
 describe('Sum func test', function(){
+    var sumReturnVal = 5;
     it('should return '+sumReturnVal+' for a=2 and b=3', function(){
         // assert.equal(sum(2,3), sumReturnVal);
         expect(sum(2,3)).equal(sumReturnVal);
     });
+});
+
+describe('Sum func test 2', function(){
+  var sumReturnVal = 4;
+  it('should return '+sumReturnVal+' for a=1 and b=3', function(){
+      // assert.equal(sum(2,3), sumReturnVal);
+      expect(sum(2,3)).equal(sumReturnVal);
+  });
 });
