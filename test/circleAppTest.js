@@ -20,6 +20,6 @@ var sumReturnVal = 5;
 describe('Sum func test', function(){
     it('should return '+sumReturnVal+' for a=2 and b=3', function(){
         // assert.equal(sum(2,3), sumReturnVal);
-        expect(sum(2,3)).equal(sumReturnVal);
+        expect(sum(2,3)).equal(sumReturnVal+25);
     });
 });
