@@ -28,6 +28,6 @@ describe('Sum func test 2', function(){
   var sumReturnVal2 = 4;
   it('should return '+sumReturnVal2+' for a=1 and b=3', function(){
       // assert.equal(sum(2,3), sumReturnVal);
-      expect(sum(2,3)).equal(sumReturnVal2);
+      expect(sum(1,3)).equal(sumReturnVal2);
   });
 });
